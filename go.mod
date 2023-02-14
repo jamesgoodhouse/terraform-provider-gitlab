@@ -1,31 +1,70 @@
 module github.com/terraform-providers/terraform-provider-gitlab
 
 require (
+	github.com/hashicorp/terraform v0.12.0
+	github.com/xanzy/go-gitlab v0.20.0
+)
+
+require (
 	cloud.google.com/go v0.39.0 // indirect
-	github.com/aws/aws-sdk-go v1.19.36 // indirect
+	github.com/agext/levenshtein v1.2.2 // indirect
+	github.com/apparentlymart/go-cidr v1.0.0 // indirect
+	github.com/apparentlymart/go-textseg v1.0.0 // indirect
+	github.com/armon/go-radix v1.0.0 // indirect
+	github.com/aws/aws-sdk-go v1.34.0 // indirect
+	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d // indirect
+	github.com/bgentry/speakeasy v0.1.0 // indirect
+	github.com/blang/semver v3.5.1+incompatible // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/fatih/color v1.7.0 // indirect
 	github.com/go-test/deep v1.0.2-0.20181118220953-042da051cf31 // indirect
 	github.com/golang/mock v1.3.1 // indirect
+	github.com/golang/protobuf v1.3.1 // indirect
 	github.com/google/go-cmp v0.3.0 // indirect
+	github.com/google/go-querystring v1.0.0 // indirect
+	github.com/googleapis/gax-go/v2 v2.0.4 // indirect
+	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.1 // indirect
+	github.com/hashicorp/go-getter v1.3.0 // indirect
 	github.com/hashicorp/go-hclog v0.9.2 // indirect
+	github.com/hashicorp/go-multierror v1.0.0 // indirect
+	github.com/hashicorp/go-plugin v1.0.1-0.20190430211030-5692942914bb // indirect
+	github.com/hashicorp/go-safetemp v1.0.0 // indirect
+	github.com/hashicorp/go-uuid v1.0.1 // indirect
 	github.com/hashicorp/go-version v1.2.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.1 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/hashicorp/hcl2 v0.0.0-20190515223218-4b22149b7cef // indirect
 	github.com/hashicorp/hil v0.0.0-20190212132231-97b3a9cdfa93 // indirect
-	github.com/hashicorp/terraform v0.12.0
+	github.com/hashicorp/logutils v1.0.0 // indirect
+	github.com/hashicorp/terraform-config-inspect v0.0.0-20190327195015-8022a2663a70 // indirect
 	github.com/hashicorp/yamux v0.0.0-20181012175058-2f1d1f20f75d // indirect
+	github.com/jmespath/go-jmespath v0.3.0 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
+	github.com/mattn/go-colorable v0.1.1 // indirect
 	github.com/mattn/go-isatty v0.0.8 // indirect
+	github.com/mitchellh/cli v1.0.0 // indirect
+	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db // indirect
+	github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
+	github.com/mitchellh/go-testing-interface v1.0.0 // indirect
+	github.com/mitchellh/go-wordwrap v1.0.0 // indirect
+	github.com/mitchellh/hashstructure v1.0.0 // indirect
+	github.com/mitchellh/mapstructure v1.1.2 // indirect
 	github.com/mitchellh/reflectwalk v1.0.1 // indirect
+	github.com/oklog/run v1.0.0 // indirect
+	github.com/posener/complete v1.2.1 // indirect
 	github.com/spf13/afero v1.2.2 // indirect
 	github.com/ulikunitz/xz v0.5.6 // indirect
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
-	github.com/xanzy/go-gitlab v0.20.0
+	github.com/zclconf/go-cty v0.0.0-20190516203816-4fecf87372ec // indirect
+	go.opencensus.io v0.21.0 // indirect
 	golang.org/x/crypto v0.0.0-20190513172903-22d7a77e9e5f // indirect
-	golang.org/x/net v0.0.0-20190522155817-f3200d17e092 // indirect
+	golang.org/x/net v0.0.0-20200202094626-16171245cfb2 // indirect
 	golang.org/x/oauth2 v0.0.0-20190517181255-950ef44c6e07 // indirect
 	golang.org/x/sys v0.0.0-20190522044717-8097e1b27ff5 // indirect
+	golang.org/x/text v0.3.2 // indirect
+	google.golang.org/api v0.5.0 // indirect
 	google.golang.org/appengine v1.6.0 // indirect
 	google.golang.org/genproto v0.0.0-20190522204451-c2c4e71fbf69 // indirect
 	google.golang.org/grpc v1.21.0 // indirect
